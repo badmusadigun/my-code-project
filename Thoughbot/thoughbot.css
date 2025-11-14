@@ -1,0 +1,412 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: #201313;
+}
+
+.head{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+margin: auto;
+padding: 20px;
+position: fixed;
+background-color: #201313
+}
+
+ @media(max-width:980px) {
+            body {
+                flex-direction: column;
+            }
+
+            .head {
+                background-color: green;
+            }
+        }
+
+
+
+
+
+
+.thou{
+padding: 10px;
+display: flex;
+color: #ffffff;
+}
+
+.cas{
+    display: flex;
+    gap: 19px;
+}
+
+
+
+
+.cas a {
+color: #ffffff;
+text-decoration: none;
+font-size: 20.84px;
+font-weight: 700;
+line-height: 18.216px;
+}
+
+.cas a:hover{
+color: gold;
+text-decoration: underline;
+}
+
+.btn{
+background-color: #e03131;
+padding: 10px 30px;
+border: none;
+color: #ffffff;
+border-radius: 40px;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 20px;
+font-size: 18px;
+}
+
+.btn:hover{
+background-color: #e03131;
+outline: thin solid gold;
+border: thin solid gold;
+}
+
+.let{
+/* margin-top: 200px; */
+width: 100%;
+overflow: hidden;
+padding-block: 200px;
+display: flex;
+justify-content: space-between;
+margin: auto;
+}
+.firstImage{
+    width: 200px;
+    /* height: 200px; */
+}
+.secondImage{
+    width: 500px;
+}
+.make{
+/* width: 40%; */
+padding-top: 100px;
+}
+
+.make h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 49.5px;
+font-weight: 700;
+line-height: 56.925px;
+color: #ffffff;
+}
+
+.make p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20.25px;
+font-weight: 400;
+/* width: 30%; */
+line-height: 30.375px;
+padding-block: 25px;
+color: #ffffff;
+}
+
+.bt{
+background-color: #e03131;
+padding: 16px 40px;
+border: none;
+border-radius: 40px;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+color: #ffffff;
+}
+
+.bt:hover{
+background-color: red;
+outline: red;
+border: thin solid black;
+}
+
+.line{
+    padding-bottom: 50px;
+padding-left: 50px;
+}
+
+video{
+    width: 100%;
+}
+
+.pro{
+border: thin d;
+}
+
+.bus{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.hat{
+    padding: 50px;
+}
+
+.har{
+font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 46.8px;
+color: rgb(250, 249, 249);
+/* padding: 30px; */
+}
+
+.mn{
+display: flex;
+gap: 20px;
+margin: 10px;
+}
+
+.man{
+    border: thin solid #29ad63;
+width: fit-content;
+color: #29ad63;
+padding: 10px;
+border-radius: 20px;
+}
+
+.ux{
+    border: thin solid #29ad63;
+width: fit-content;
+color: #29ad63;
+padding: 15px;
+border-radius: 20px;
+}
+
+
+
+.rea{
+    border: thin solid #29ad63;
+width: fit-content;
+color: #29ad63;
+margin: 10px;
+padding: 10px;
+border-radius: 20px;
+}
+
+.how{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20.25px;
+font-weight: 400;
+line-height: 30.375px;
+color: rgb(234, 230, 228);
+width: 550px;
+padding: 25px;
+}
+
+
+.read  {                                        
+text-decoration: none;              
+font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #ffe7a3; 
+          
+}
+
+.read:hover{
+color: gold;
+text-decoration: underline;
+}       
+
+.both{
+    
+margin-left: 50px;
+padding: 90px;
+}
+
+ .team{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 30.375px;
+color: rgb(250, 249, 249);
+width: px;
+ }
+
+.marta{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 40.5px;
+color: rgb(234, 230, 228);
+}
+
+.our{
+font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+color: rgb(234, 230, 228);
+padding: 10px;
+}
+
+.expert{
+font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 50px;
+color: rgb(234, 230, 228);
+width: 800px;
+
+}
+
+.year{
+font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20.25px;
+font-weight: 400;
+line-height: 35px;
+color: rgb(234, 230, 228);
+width: 700px;
+padding: 35px;
+}
+
+.more {
+   font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #ffe7a3;
+
+}
+
+.more:hover{
+    /* background-color: gold; */
+    color: gold;
+text-decoration: underline;
+}
+
+.focus{
+    padding: 50px;
+}
+
+.list{
+color: #ffffff;
+padding: 40px;
+font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20.25px;
+font-weight: 400;
+line-height: 30.375px;
+color: rgb(234, 230, 228);
+padding-top: 200px;
+
+}
+
+.early{
+    padding: 20px;
+    width: 300px;
+    line-height: 30px;
+}
+
+.early:hover{
+      color: gold;
+text-decoration: underline;
+}
+
+.new{
+    display: flex;
+}
+
+.client{
+    color: #ffffff;
+    padding: 60px;
+    /* padding-top: 50px; */
+    /* line-height: 60px; */
+}
+
+.over{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+gap: 30px;
+color: rgb(234, 230, 228);
+padding: 20px;
+}
+
+.stage{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 27px;
+color: rgb(234, 230, 228);
+padding: 10px;
+}
+
+.their{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+color: rgb(234, 230, 228);
+padding: 20px;
+width: 650px;
+}
+
+.story{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: rgb(234, 230, 228);
+padding-left: 20px;
+/* margin-bottom: 10px; */
+}
+
+.story:hover{
+     color: gold;
+text-decoration: underline;
+
+}
+
+.asin{
+    display: flex;
+    overflow: hidden;
+}
+
+.asa{
+    padding-top: 80px;
+    padding-left: -300px;
+    width: 600px;
+}
+
+.pris{
+    display: flex;
+}
+
+.ai{
+    padding-top: 90px;
+    width: 400px;
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: rgb(234, 230, 228);
+}
+
+.work{
+    font-size: 30px;
+}
+
+
+
+
+
+
